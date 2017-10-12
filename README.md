@@ -1,5 +1,14 @@
 # Windows Caffe
 
+##安装方法：
+1 按照下文配置完后，在命令行里进入工程里的scripts目录：
+	win 7 运行 build_win.cmd
+	win 10 运行 .\build_win.cmd
+2 脚本会在 C 盘 user 里下载 .caffe 文件的依赖库并进行caffe的编译
+3 编译通过后，将python文件夹里的 caffe 复制到 your\path\to\AnacondaX\Lib\site-packages 下面
+4 之后就可以 import caffe 了
+
+
 ##配置caffe 支持 cpu_only py3.5
 1 修改build.cmd 如下:
 	设置所有 以下选项：
